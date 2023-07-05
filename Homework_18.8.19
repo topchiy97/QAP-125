@@ -5,7 +5,7 @@ while True:
         tickets = int(tickets)
         if type(tickets) == int:
             break
-    except ValueError and TypeError:
+    except ValueError:
         print('Введены некорректные данные! Пожалуйста, введите целое число.')
 for i in range(tickets):
     i += 1
